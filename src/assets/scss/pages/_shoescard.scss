@@ -1,0 +1,8 @@
+.test-wrap {
+  word-wrap: normal;
+}
+@include responsive("large-down") {
+  .product__item {
+    width: 100%;
+  }
+}
